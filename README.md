@@ -1,4 +1,4 @@
-# ✈️ Travel Planner AI Agent
+#  Travel Planner AI Agent
 
 A simple, extensible AI agent built with the **Gemini API** that plans trips by
 calling tools for weather, flights, and hotels — then assembles a day-by-day
@@ -13,11 +13,11 @@ result fed back to LLM → LLM reasons again → ... → final answer
 
 ## Features
 
-- 🌤️ **Real weather data** via the free [Open-Meteo](https://open-meteo.com/) API (no key needed)
-- ✈️ **Flight search** (mock data — swap in a real API like Amadeus)
-- 🏨 **Hotel search** (mock data — swap in a real API like Booking.com)
-- 🔁 Full agentic tool-use loop using Gemini function calling
-- 💬 Simple CLI chat interface
+-  **Real weather data** via the free [Open-Meteo](https://open-meteo.com/) API (no key needed)
+-  **Flight search** (mock data — swap in a real API like Amadeus)
+-  **Hotel search** (mock data — swap in a real API like Booking.com)
+-  Full agentic tool-use loop using Gemini function calling
+-  Simple CLI chat interface
 
 ## Project structure
 
@@ -62,7 +62,7 @@ Then open `.env` and paste your key:
 GEMINI_API_KEY=your_real_key_here
 ```
 
-⚠️ **Never commit `.env` to GitHub.** It's already in `.gitignore`.
+ **Never commit `.env` to GitHub.** It's already in `.gitignore`.
 
 ### 5. Run it
 ```bash

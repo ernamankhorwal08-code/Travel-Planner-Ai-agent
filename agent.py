@@ -1,10 +1,4 @@
-"""
-agent.py
---------
-Core agent loop: send conversation to Gemini, execute any tool calls
-it requests, feed results back, repeat until the model gives a final
-text answer.
-"""
+
 
 import os
 from google import genai
